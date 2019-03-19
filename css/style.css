@@ -35,10 +35,37 @@ html, body {
   padding-top: 2rem;
 }
 
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
 .services {
   width: 75%;
   margin: 0 auto;
   padding-top: 2rem;
+}
+
+.services hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+.contact {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.contact hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
 }
 
 /*-- form control --*/
