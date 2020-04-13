@@ -1,0 +1,281 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    background-color: #cecece;
+    color: #566b78;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+strong {
+  color: #333;
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+h2 {font-size: 2.441em;}
+
+h3 {font-size: 1.953em;}
+
+h4 {font-size: 1.563em;}
+
+a {
+    color: #e81c4f;
+}
+
+
+  
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+header{
+    background: #343a40;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #343a40 3px solid;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding img {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: #32a0c2;
+}
+  
+header a:hover{
+    color: #cccccc;
+}
+
+/* about */
+
+#about {
+    min-height: 400px;
+    background:url('../img/header.jpg') no-repeat center;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+}
+  
+#about h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+  
+#about p{
+    font-size: 20px;
+}
+
+/* services */
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes h2{
+    margin: 10px;
+    text-align: center;
+}
+  
+#boxes .box {
+    float:left;
+    text-align: left;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box li {
+    list-style-position: inside;
+    margin-bottom: 0.5rem;
+    margin-left: 10px;
+    padding: 0;
+}
+
+/* contact */
+#contact{
+    padding: 15px;
+}
+
+#contact h2{
+    text-align: center;
+}
+
+#contact p{
+    text-align: left;
+}
+
+#contact form {
+    float: center;
+    margin-top: 15px;
+}
+
+/* formspree contact form styling */
+/* reset */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+#fs-frm ::placeholder {
+  font-size: .825em;
+  margin-bottom: .5em;
+  padding-top: .2em;
+  display: flex;
+  align-items: baseline;
+}
+
+/* border, padding, margin, width */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea {
+  border: 1px solid rgba(0,0,0,0.2);
+  background-color: rgba(255,255,255,0.9);
+  padding: .75em 1em;
+  margin-bottom: 1.5em;
+}
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+  outline-offset: -1px;
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 100%;
+}
+#fs-frm [type="button"],
+#fs-frm [type="submit"]{
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  margin-bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+  outline: none;
+}
+
+/* footer */
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #343a40;
+    text-align: center;
+}
+  
+/* responsive */
+
+@media(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav li,
+    #contact h2,
+    #boxes .box {
+      float: none;
+      text-align: center;
+      width: 100%;
+    }
+
+    #contact form,
+    #contact input,
+    #contact textarea {
+        float: none;
+        text-align: left;
+        width: 100%;
+    }
+
+    #boxes .box p, li {
+        text-align: left;
+    }
+  
+    header{
+      padding-bottom: 20px;
+    }
+
+    #about h1 {
+        margin-top: 40px;
+    }
+  
+    #about h1{
+      margin-top: 40px;
+    }
+  
+    #contact button {
+      display: block;
+      width: 100%;
+    }
+  
+    #contact form input textarea {
+          width: 100%;
+          margin-bottom: 5px;
+    }
+}
