@@ -6,8 +6,8 @@ html {
 }
 
 body {
-    background-color: #cecece;
-    color: #566b78;
+    background-color: #eae9e9;
+    color: #464545;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     line-height: 1.5;
     padding: 0;
@@ -112,31 +112,39 @@ header a:hover{
 
 /* services */
 
-#boxes {
-    margin-top: 20px;
+#services {
+    background-color: #dbd9d9;
 }
 
-#boxes h2{
+#services h2{
     margin: 10px;
     text-align: center;
 }
   
-#boxes .box {
+#services .box {
     float:left;
     text-align: left;
     width: 30%;
     padding: 10px;
 }
 
-#boxes .box li {
+#services .box li {
     list-style-position: inside;
     margin-bottom: 0.5rem;
     margin-left: 10px;
     padding: 0;
 }
 
+/* need a hand */
+
+#need-a-hand {
+    background-color: #eae9e9;
+    margin-top: 20px;
+}
+
 /* contact */
 #contact{
+    background-color: #dbd9d9;
     padding: 15px;
 }
 
@@ -152,6 +160,20 @@ header a:hover{
     float: center;
     margin-top: 15px;
 }
+
+#contact ul {
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+#contact li {
+    list-style-position: inside;
+    list-style-type: none;
+    margin-bottom: 0.5rem;
+    margin-left: 15px;
+    padding: 0;
+}
+
 
 /* formspree contact form styling */
 /* reset */
@@ -226,7 +248,6 @@ header a:hover{
 
 footer{
     padding: 20px;
-    margin-top: 20px;
     color: #ffffff;
     background-color: #343a40;
     text-align: center;
@@ -239,7 +260,7 @@ footer{
     header nav,
     header nav li,
     #contact h2,
-    #boxes .box {
+    #services .box {
       float: none;
       text-align: center;
       width: 100%;
@@ -253,7 +274,7 @@ footer{
         width: 100%;
     }
 
-    #boxes .box p, li {
+    #services .box p, li {
         text-align: left;
     }
   
