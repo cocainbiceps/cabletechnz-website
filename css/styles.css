@@ -97,6 +97,7 @@ header a:hover{
     background-size: cover;
     text-align: center;
     color: #ffffff;
+    padding-bottom: 50px;
 }
   
 #about h1{
@@ -114,6 +115,7 @@ header a:hover{
 
 #services {
     background-color: #dbd9d9;
+    padding-bottom: 50px;
 }
 
 #services h2{
@@ -139,13 +141,14 @@ header a:hover{
 
 #need-a-hand {
     background-color: #eae9e9;
-    margin-top: 20px;
+    padding-bottom: 50px;
 }
 
 /* contact */
 #contact{
     background-color: #dbd9d9;
     padding: 15px;
+    padding-bottom: 50px;
 }
 
 #contact h2{
