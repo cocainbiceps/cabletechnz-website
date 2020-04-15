@@ -74,6 +74,7 @@ header #branding {
 
 header #branding img {
     margin: 0;
+    height: 50px;
 }
 
 header nav {
