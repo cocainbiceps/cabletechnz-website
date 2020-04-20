@@ -256,6 +256,14 @@ footer{
     background-color: #343a40;
     text-align: center;
 }
+
+footer a{
+    color: #ffffff;
+}
+
+footer a:hover{
+    color: #cccccc;
+}
   
 /* responsive */
 
