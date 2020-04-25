@@ -178,6 +178,13 @@ header a:hover{
     padding: 0;
 }
 
+#privacy li {
+    list-style-position: inside;
+    list-style-type: disc;
+    margin-bottom: 0.5rem;
+    margin-left: 15px;
+    padding: 0;
+}
 
 /* formspree contact form styling */
 /* reset */
